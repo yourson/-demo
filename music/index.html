@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="referrer" content="no-referrer">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>与喜欢的音乐不期而遇</title>
+    <link rel="shortcut icon" href="img/pic.jpg"/>
+    <link rel="stylesheet" type="text/css" href="css/html5-doctor-reset-stylesheet.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <script src="js/flexible.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<header>
+    <!--歌曲名字以及作曲家-->
+    <h1 class="song-title">你的第一首歌</h1>
+    <div class="singer">许文斌</div>
+</header>
+
+<!--唱片图以及歌词显示界面-->
+<div class="content">
+    <div class="record-wrapper" style="display: block;">
+        <div class="record-bg mid">
+            <div class="record-pic mid">
+                <img src="img/pic.jpg" alt="唱片图片">
+            </div>
+        </div>
+    </div>
+    <div class="lyrics-wrapper">
+        <ul class="lyrics"></ul>
+    </div>
+</div>
+
+<!--按钮部分-->
+<footer>
+    <div class="channel" data-channel-id=""></div>
+    <!--进度条部分-->
+    <div class="progress-bar">
+        <div class="progress"></div>
+        <div class="progress-btn"></div>
+    </div>
+    <!--切换按钮以及下一曲灯按钮-->
+    <div class="btns">
+        <div class="show-lyrics icon-sides"></div>
+        <div class="change-channel icon-middle"></div>
+        <div class="play"></div>
+        <div class="next icon-middle"></div>
+        <div class="mode icon-sides"></div>
+    </div>
+</footer>
+<div class="glass">
+    <img>
+</div>
+<!--播放器-->
+<audio id="mic_audio"></audio>
+
+<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
